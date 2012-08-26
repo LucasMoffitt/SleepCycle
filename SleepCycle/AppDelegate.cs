@@ -23,6 +23,7 @@ namespace SleepCycle
 			window.RootViewController = rootNavigationController;
 			window.MakeKeyAndVisible ();
 
+			//TestComment!
 			UIApplication.SharedApplication.SetStatusBarStyle(UIStatusBarStyle.BlackOpaque, true);
 			return true;
 		}
